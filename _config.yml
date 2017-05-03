@@ -1,0 +1,24 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               C64
+tagline:             was easier to reset
+paginate:            1
+
+# Handling Reading
+
+sass:
+  sass_dir: css
+  style:    expanded
+
+exclude:
+- README.md
+
+# Conversion
+markdown: kramdown
+lsi: false
+
+# Gems
+gems:
+  - jekyll-paginate
